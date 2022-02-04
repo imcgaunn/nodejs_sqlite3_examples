@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "sqlite3": "^5.0.2"
+  },
+  "name": "nodejs_sqlite3_examples",
+  "version": "1.0.0",
+  "description": "program to experiment with sqlite3 in nodejs",
+  "main": "index.js",
+  "devDependencies": {
+    "@hapi/code": "^8.0.6",
+    "@hapi/lab": "^24.5.1"
+  },
+  "scripts": {
+    "test": "lab -v test/*.js"
+  },
+  "keywords": [
+    "examples",
+    "sqlite",
+    "nodejs"
+  ],
+  "author": "ian mcgaunn",
+  "license": "WTFPL"
+}
